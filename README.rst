@@ -52,4 +52,3 @@ Note that ``update_variance()`` is for *sample* variance while
 ``update_pvariance()`` is for *population* variance.
 
 All functions are pure and therefore thread-safe.
-
