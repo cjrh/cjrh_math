@@ -35,15 +35,15 @@ in `Wikipedia <https://en.wikipedia.org/wiki/Standard_deviation#Rapid_calculatio
 
 .. code-block:: python
 
-    def update_mean(n: int, mean: float, value: float):
+    def update_mean(n: int, mean: float, value: float) -> float
 
 Given a new ``value``, calculate a new mean using the existing ``mean`` and
 the size of data, ``n``, seen so far.
 
 .. code-block:: python
 
-    def update_pvariance(n: int, mean: float, var: float, value: float):
-    def update_variance(n: int, mean: float, var: float, value: float):
+    def update_pvariance(n: int, mean: float, var: float, value: float) -> float
+    def update_variance(n: int, mean: float, var: float, value: float) -> float
 
 Given a new ``value``, calculate a new variance using the existing ``mean``,
 existing variance ``var``, and the size of data, ``n``, seen so far.
